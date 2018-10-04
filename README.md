@@ -1,7 +1,7 @@
 # OSXcoldstart2desktopTimer
 Calculate how long it takes to get to a desktop from cold on OSX.
 
-##Description:
+## Description:
 
 This script calculates how long it takes to get from a cold boot to a useable desktop on OSX.
 
@@ -13,10 +13,10 @@ With the oldest machines, this process seems to slow down with every major OS up
 
 The script works via a system-level LaunchDaemon and a per-user LaunchAgent which are removed when the timings have completed.
 
-##Disclaimer:
+## Disclaimer:
 The script powers on and off several times. If you are unsure, do not install.
 
-##How to install:
+## How to install:
 
 1. Log in as a user with Admin rights
 2. Enable Auto log in for the user
@@ -27,7 +27,7 @@ The script powers on and off several times. If you are unsure, do not install.
 5. Close all windows
 6. Reboot
 
-##Aborting:
+## Aborting:
 
 To stop the process prematurely, wait for the workstation to switch off, then immediately switch it on again.
 
@@ -36,7 +36,7 @@ If for some reason the script will not abort, boot into Single-User mode and del
 	  /Users/<yourloginname>/Library/LaunchAgents/OSXcoldstart2desktopTimer-timer.plist"
 	  /Library/LaunchDaemons/OSXcoldstart2desktopTimer-SchedulePowerOn.plist"
   
-##Results:
+## Results:
 
 The results can be read from the log file that is placed in the same folder as the script.
 
@@ -46,7 +46,7 @@ The results can be read from the log file that is placed in the same folder as t
 - Average COLDSTART2DESTOP
   This is how long it took on average to start up to a useable desktop.
 
-##Example Results:
+## Example Results:
 
 Versions of the OS for 10.6 and above were timed on a freshly installed OS.
 
@@ -56,7 +56,7 @@ Each Mac HD was set up with a GUID Partition Scheme.
 
 The results in the example spreadsheets show that in general, each OS is generally slower at getting to a useable desktop than the previous OS was.
 
-###iMac7,1 Results
+### iMac7,1 Results
 
 The iMac7,1 test results in the spreadsheet were executed on a 4GB Mac with a 250GB HD. 
 
@@ -64,7 +64,7 @@ The iMac7,1 test results in the spreadsheet were executed on a 4GB Mac with a 25
 
 The results show that on an iMac7,1 and a base OS with no Applications - 10.4.11 gets to a useable desktop in 26 seconds whereas on 10.11.6 it averages 47 seconds.
 
-###iMac10,1 Results
+### iMac10,1 Results
 
 The iMac10,1 test results in the spreadsheet were executed on a 4GB Mac with a 250GB HD. 
 
@@ -72,11 +72,11 @@ The iMac10,1 test results in the spreadsheet were executed on a 4GB Mac with a 2
 
 The results show that on an iMac10,1 and a base OS with no Applications - 10.6.8 gets to a useable desktop in 22 seconds whereas on 10.12.1 it averages 40 seconds.
 
-##History:
+## History:
 
 1.0.9 - 04 OCT 18
 
-* Uploaded the change from 2 years ago, but no updates since.
+* Uploaded the change from 2 years ago, but no updates have been made since.
 
 1.0.9 - 01 NOV 16
 
