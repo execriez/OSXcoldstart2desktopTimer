@@ -40,7 +40,7 @@ If for some reason the script will not abort, boot into Single-User mode and del
 
 The results can be read from the log file that is placed in the same folder as the script.
 
-- Average BOOTLOGDELAY
+- Average STARTUPDELAY
   This is how long it took to start logging. Basically, this is the delay that you see before OSX starts to load (the grey screen before the apple logo appears).
 
 - Average COLDSTART2DESTOP
@@ -64,7 +64,23 @@ The iMac7,1 test results in the spreadsheet were executed on a 4GB Mac with a 25
 
 The results show that on an iMac7,1 and a base OS with no Applications - 10.4.11 gets to a useable desktop in 26 seconds whereas on 10.11.6 it averages 47 seconds.
 
+###iMac10,1 Results
+
+The iMac10,1 test results in the spreadsheet were executed on a 4GB Mac with a 250GB HD. 
+
+![AD Group Members Tab, Members](Results-iMac10v1.png "Timings")
+
+The results show that on an iMac10,1 and a base OS with no Applications - 10.6.8 gets to a useable desktop in 22 seconds whereas on 10.12.1 it averages 40 seconds.
+
 ##History:
+
+1.0.9 - 04 OCT 18
+
+* Uploaded the change from 2 years ago, but no updates since.
+
+1.0.9 - 01 NOV 16
+
+* Timings for macOS Sierra 10.12.1 added
 
 1.0.8 - 21 JUL 16
 

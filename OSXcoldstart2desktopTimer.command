@@ -2,7 +2,7 @@
 #
 # Calculates how long it takes to get to a desktop from cold on OSX
 # Mark J Swift
-sv_CodeVersion="1.0.8" 
+sv_CodeVersion="1.0.9" 
 
 # ---
 
